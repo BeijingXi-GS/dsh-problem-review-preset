@@ -1,0 +1,22 @@
+{
+  "name": "dsh-problem-review-preset",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "审核信息学竞赛题（CSP-J/NOIP/GESP/洛谷/AtCoder 等）的三个质量维度：重复程度、思维深度（推理链/因果/抽象/迁移）、知识叠加程度，输出带证据的评分卡与改造建议。",
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-agent-preset",
+    "education",
+    "problem-review",
+    "competitive-programming"
+  ]
+}
